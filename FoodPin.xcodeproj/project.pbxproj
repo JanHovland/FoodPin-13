@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB27A8902146625A008FE865 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB27A88F2146625A008FE865 /* Restaurant.swift */; };
 		DBFB56682143D089002BFCF3 /* RestaurantDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFB56672143D089002BFCF3 /* RestaurantDetailViewController.swift */; };
 		F4BD89C71F4E961C00588D6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BD89C61F4E961C00588D6D /* AppDelegate.swift */; };
 		F4BD89CC1F4E961C00588D6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4BD89CA1F4E961C00588D6D /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DB27A88F2146625A008FE865 /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
 		DBFB56672143D089002BFCF3 /* RestaurantDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDetailViewController.swift; sourceTree = "<group>"; };
 		F4BD89C31F4E961C00588D6D /* FoodPin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodPin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4BD89C61F4E961C00588D6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				F4BD89CD1F4E961C00588D6D /* Assets.xcassets */,
 				F4BD89CF1F4E961C00588D6D /* LaunchScreen.storyboard */,
 				F4BD89D21F4E961C00588D6D /* Info.plist */,
+				DB27A88F2146625A008FE865 /* Restaurant.swift */,
 				F4BD89D81F4E96FB00588D6D /* RestaurantTableViewController.swift */,
 				F4BD89DA1F4EA9FC00588D6D /* RestaurantTableViewCell.swift */,
 				DBFB56672143D089002BFCF3 /* RestaurantDetailViewController.swift */,
@@ -143,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB27A8902146625A008FE865 /* Restaurant.swift in Sources */,
 				F4BD89D91F4E96FB00588D6D /* RestaurantTableViewController.swift in Sources */,
 				F4BD89DB1F4EA9FC00588D6D /* RestaurantTableViewCell.swift in Sources */,
 				DBFB56682143D089002BFCF3 /* RestaurantDetailViewController.swift in Sources */,
