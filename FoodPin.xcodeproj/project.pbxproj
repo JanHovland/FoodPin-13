@@ -41,6 +41,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DB27A89121466DFE008FE865 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F4BD89D81F4E96FB00588D6D /* RestaurantTableViewController.swift */,
+				DBFB56672143D089002BFCF3 /* RestaurantDetailViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DB27A89221466E2E008FE865 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DB27A88F2146625A008FE865 /* Restaurant.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DB27A89321466E4C008FE865 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F4BD89DA1F4EA9FC00588D6D /* RestaurantTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DB27A89421466EA5008FE865 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				F4BD89CA1F4E961C00588D6D /* Main.storyboard */,
+				F4BD89CF1F4E961C00588D6D /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
 		F4BD89BA1F4E961C00588D6D = {
 			isa = PBXGroup;
 			children = (
@@ -60,15 +94,13 @@
 		F4BD89C51F4E961C00588D6D /* FoodPin */ = {
 			isa = PBXGroup;
 			children = (
+				DB27A89421466EA5008FE865 /* Storyboard */,
+				DB27A89321466E4C008FE865 /* View */,
+				DB27A89221466E2E008FE865 /* Model */,
+				DB27A89121466DFE008FE865 /* Controller */,
 				F4BD89C61F4E961C00588D6D /* AppDelegate.swift */,
-				F4BD89CA1F4E961C00588D6D /* Main.storyboard */,
-				F4BD89CD1F4E961C00588D6D /* Assets.xcassets */,
-				F4BD89CF1F4E961C00588D6D /* LaunchScreen.storyboard */,
 				F4BD89D21F4E961C00588D6D /* Info.plist */,
-				DB27A88F2146625A008FE865 /* Restaurant.swift */,
-				F4BD89D81F4E96FB00588D6D /* RestaurantTableViewController.swift */,
-				F4BD89DA1F4EA9FC00588D6D /* RestaurantTableViewCell.swift */,
-				DBFB56672143D089002BFCF3 /* RestaurantDetailViewController.swift */,
+				F4BD89CD1F4E961C00588D6D /* Assets.xcassets */,
 			);
 			path = FoodPin;
 			sourceTree = "<group>";
