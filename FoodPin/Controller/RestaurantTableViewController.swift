@@ -8,6 +8,8 @@
 
 import UIKit
 
+// MARK: - Table view data source
+
 class RestaurantTableViewController: UITableViewController {
 
     var restaurants:[Restaurant] = [
@@ -34,6 +36,8 @@ class RestaurantTableViewController: UITableViewController {
         Restaurant(name: "CASK Pub and Kitchen", type: "Thai", location: "London", image: "caskpubkitchen", isVisited: false)
         ]
     
+    // MARK: - View controller life cycle
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.cellLayoutMarginsFollowReadableWidth = true
@@ -42,11 +46,10 @@ class RestaurantTableViewController: UITableViewController {
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
+      }
 
-    // MARK: - Table view data source
-
+    // MARK: - UITableViewDataSource Protocol
+    
     override func numberOfSections(in tableView: UITableView) -> Int {
         return 1
     }
